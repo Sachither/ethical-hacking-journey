@@ -1,0 +1,143 @@
+ETHICAL HACKING & PENTESTING ROADMAP
+------------------------------------
+Author: Jammy
+Purpose: Structured learning path based on HackerSploit methodology + HackTheBox practice
+
+PHASE 1: FOUNDATION (Weeks 1-4)
+--------------------------------
+Goal: Build solid understanding of basic networking, Linux, and security concepts.
+
+1. Networking Basics
+   - TCP/IP, UDP, ICMP, DNS, HTTP/HTTPS
+   - Ports and protocols
+   - Subnetting and IP addressing
+   Resources:
+     - HackerSploit Networking Fundamentals videos
+     - "Computer Networking: Principles, Protocols and Practice"
+
+2. Linux Fundamentals
+   - File system navigation
+   - File permissions
+   - Shell basics & scripting
+   Resources:
+     - HackerSploit Linux Essentials series
+     - OverTheWire Bandit wargame
+
+3. Introduction to Ethical Hacking
+   - What is pentesting?
+   - Types: Web, Mobile, Network
+   - Methodology overview
+
+Practice:
+   - Complete OverTheWire Bandit levels 1-10
+   - Setup Kali Linux in VM
+
+---
+
+PHASE 2: WEB PENTESTING BASICS (Weeks 5-8)
+------------------------------------------
+Goal: Learn how to find and exploit common web vulnerabilities.
+
+1. Web Technologies
+   - HTML, CSS, JS basics
+   - HTTP requests/responses
+   - Cookies & sessions
+
+2. Web Vulnerabilities
+   - SQL Injection
+   - XSS (Reflected, Stored, DOM)
+   - CSRF
+   - File Inclusion
+   - Authentication bypass
+
+Tools:
+   - Burp Suite
+   - OWASP ZAP
+
+Practice:
+   - DVWA
+   - HackTheBox Starting Point web challenges
+
+---
+
+PHASE 3: NETWORK PENTESTING (Weeks 9-12)
+-----------------------------------------
+Goal: Learn to scan, enumerate, and exploit network services.
+
+1. Recon & Scanning
+   - Nmap
+   - Masscan
+   - Service enumeration
+
+2. Exploitation
+   - SMB, FTP, SSH attacks
+   - Metasploit basics
+
+Practice:
+   - HackTheBox Starting Point network challenges
+
+---
+
+PHASE 4: MOBILE APP PENTESTING (Weeks 13-16)
+---------------------------------------------
+Goal: Understand Android & iOS security models and test apps.
+
+1. Android Basics
+   - APK structure
+   - Frida & Objection basics
+   - SSL pinning bypass
+
+2. Mobile Vulnerabilities
+   - Insecure storage
+   - Weak authentication
+   - API misconfigurations
+
+Practice:
+   - Install vulnerable APKs in emulator
+   - Use Burp Suite with mobile apps
+
+---
+
+PHASE 5: API & BACKEND SECURITY (Weeks 17-20)
+----------------------------------------------
+Goal: Learn API attacks and secure backend coding practices.
+
+1. REST & GraphQL APIs
+   - Authentication
+   - Rate limiting
+   - Input validation
+
+2. Attacks
+   - Broken Object Level Authorization (BOLA)
+   - Mass assignment
+   - Injection attacks
+
+Practice:
+   - Build a small Node.js or Python API
+   - Test with Postman & Burp Suite
+
+---
+
+PHASE 6: ADVANCED & REALISTIC PRACTICE (Weeks 21-52)
+-----------------------------------------------------
+Goal: Work like a real pentester.
+
+1. Advanced Exploitation
+   - Privilege escalation (Linux & Windows)
+   - Active Directory attacks
+   - Pivoting
+
+2. Realistic Labs
+   - HackTheBox (regular + retired boxes)
+   - TryHackMe Advanced paths
+
+3. Reporting
+   - Learn to write professional pentest reports
+
+---
+
+End Goal:
+By the end of the year, you should have:
+- A strong portfolio of documented pentests
+- Competence in both web & mobile pentesting
+- Experience with API security testing
