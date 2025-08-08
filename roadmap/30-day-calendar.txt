@@ -1,6 +1,6 @@
 30-DAY ETHICAL HACKING CHALLENGE (BEGINNER FOCUS)
 -------------------------------------------------
-Author: Jammy
+Author: Sabastine Chika
 Purpose: Build strong base in hacking fundamentals + HTB practice.
 
 WEEK 1:
