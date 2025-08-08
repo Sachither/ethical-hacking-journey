@@ -1,0 +1,75 @@
+[Project/Box Name] — [Type: HTB | Web App | API | Mobile App | Lab]
+Date: YYYY-MM-DD
+Difficulty: [Easy | Medium | Hard]
+Target IP/URL: [IP or URL here]
+Objective: [Short description of what you are testing or learning]
+
+------------------------------------------------------------
+1. Reconnaissance
+------------------------------------------------------------
+Tools & Commands Used:
+    Example: Initial Nmap scan
+    nmap -sV -sC -oN initial_scan.txt [target]
+
+Findings:
+    - Service/Version on Port
+    - Technology stack
+    - Interesting details from scan
+
+------------------------------------------------------------
+2. Enumeration
+------------------------------------------------------------
+Tools & Commands Used:
+    Example: Directory enumeration
+    gobuster dir -u http://[target] -w /path/to/wordlist
+
+Findings:
+    - Discovered files/directories
+    - Usernames, API endpoints, versions, etc.
+
+------------------------------------------------------------
+3. Exploitation
+------------------------------------------------------------
+Vulnerability Identified:
+    - Name and CVE if applicable
+    - Why it’s vulnerable
+
+Exploit Steps:
+    Example: Running exploit
+    python exploit.py --target [target]
+
+------------------------------------------------------------
+4. Privilege Escalation
+------------------------------------------------------------
+Method:
+    - Kernel exploit / Misconfig / Credentials reuse
+
+Commands & Output:
+    Example:
+    sudo -l
+
+------------------------------------------------------------
+5. Post-Exploitation
+------------------------------------------------------------
+    - Data exfiltration
+    - Persistence method
+    - Interesting files found
+
+------------------------------------------------------------
+6. Results
+------------------------------------------------------------
+    User Flag: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    Root Flag: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    Proof of Concept Screenshots: (Add image links if any)
+
+------------------------------------------------------------
+7. Lessons Learned
+------------------------------------------------------------
+    - Key takeaways
+    - Mistakes to avoid next time
+    - Tools/techniques to remember
+
+------------------------------------------------------------
+8. References
+------------------------------------------------------------
+    - Links to writeups, CVEs, docs, or tools
