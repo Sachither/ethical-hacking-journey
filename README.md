@@ -37,7 +37,7 @@ It includes:
 ---
 
 ## 📅 Roadmap Progress
-See `roadmap/roadmap.txt` and `roadmap/30-day-calendar.txt` for the full plan.
+See [`roadmap/roadmap.txt`](https://github.com/Sachither/ethical-hacking-journey/blob/main/roadmap/roadmap.txt) and [`roadmap/30-day-calendar.txt`](https://github.com/Sachither/ethical-hacking-journey/blob/main/roadmap/30-day-calendar.txt) for the full plan.
 
 ---
 
