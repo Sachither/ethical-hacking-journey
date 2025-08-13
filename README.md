@@ -20,10 +20,12 @@ It includes:
 
 ## 🗂 Repository Structure
 - [**roadmap/**](https://github.com/Sachither/ethical-hacking-journey/tree/main/roadmap) → My training plan & 30-day challenge
+- [**linux/**](https://github.com/Sachither/ethical-hacking-journey/tree/main/linux)  → Everything i learnt about linux and kali in general
 - **hackthebox-writeups/** → Practice box notes (no spoilers for active HTB challenges)
 - **api-projects/** → Side coding projects to boost backend skills
 - **tools-notes/** → Tool-specific tips & cheatsheets
 - **reports/** → Example pentest reports I create for practice
+
 
 ---
 
