@@ -28,7 +28,7 @@
   ```
 - Directory enumeration with Gobuster:
   ```bash
-  gobuster dir -u http://10.129.135.32 -w ~/wordlist-tools/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt
+  gobuster dir -u http://10.129.135.32 -w ~/wordlist-tools/SecLists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-small.txt
   ```
 
 **Findings:**
