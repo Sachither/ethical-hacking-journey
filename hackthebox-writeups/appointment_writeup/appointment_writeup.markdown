@@ -16,7 +16,7 @@
 
 **Findings:**
 - Port 80: Apache httpd 2.4.38 (Debian)  
-  *(Image: scan result)*
+  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/Nmap-scan.png)*
 
 ---
 
@@ -32,10 +32,10 @@
   ```
 
 **Findings:**
-- HTTP title revealed a login page.  
-  *(Image: login page)*
+- HTTP title revealed a login page as shown in the scan.
+  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/login.png)* 
 - No significant directories found, only default ones.  
-  *(Image: Gobuster output)*
+  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/gobuster-scan.png)*
 
 ---
 
@@ -51,7 +51,6 @@
   admin' #
   ```
 - This commented out the password check in the SQL query, granting access to the admin panel without a password.  
-  *(Image: successful login)*
 
 ---
 
@@ -65,12 +64,12 @@
   admin' #
   ```
 - Result: Logged in as admin, bypassing password verification.
-
+  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/login.png)*
 ---
 
 ## 5. Results
 - **User Flag:** `e3d0796d002a446c0e622226f42e9672`  
-  *(Image: flag captured)*
+  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/flag.png)*
 
 ---
 
@@ -95,11 +94,10 @@
 ---
 
 ## 7. Images
-- Nmap scan result
-- Login page
-- Successful login via SQL injection
-- Gobuster directory enumeration output
-- User flag
+- *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/Nmap-scan.png)*
+- *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/login.png)*
+- *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/gobuster-scan.png)*
+- *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/flag.png)*
 
 ---
 
