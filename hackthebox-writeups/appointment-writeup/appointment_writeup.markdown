@@ -33,7 +33,7 @@
 
 **Findings:**
 - HTTP title revealed a login page as shown in the scan.
-  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/login.png)* 
+  ![Login](https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment-writeup/images/login.png) 
 - No significant directories found, only default ones.  
   *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/gobuster-scan.png)*
 
