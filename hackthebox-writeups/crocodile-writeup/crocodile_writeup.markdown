@@ -17,7 +17,7 @@
 **Findings:**
 - Port 21: vsftpd 3.0.3 (FTP)  
 - Port 80: Apache httpd 2.4.41 (Ubuntu)  
-  ![Nmap Scan Result](images/nmap-scan-result.png)
+  ![Nmap Scan](images/nmap.png)
 
 ---
 
@@ -39,11 +39,11 @@
 **Findings:**
 - Port 21 open, running FTP with anonymous login allowed.  
 - Port 80 open, running Apache 2.4.41 with Bootstrap (via WhatWeb).  
-  ![WhatWeb Scan](images/whatweb-scan.png)  
+  ![WhatWeb Scan](images/whatweb-scan.png)
 - Gobuster found a dashboard page.  
-  ![Gobuster Scan](images/gobuster-scan.png)  
+  ![Gobuster Scan](images/gobuster-scan.png)
 - Website homepage detected.  
-  ![Website Homepage](images/website-homepage.png)
+  ![Website](images/website.png)
 
 ---
 
@@ -70,11 +70,11 @@
   ftp> get allowed.userlist
   ftp> get allowed.userlist.passwd
   ```
-  ![FTP File Discovery](images/ftp-file-discovery.png)  
-  ![FTP File Download](images/ftp-file-download.png)  
+  ![FTP File Discovery](images/ftp-file-discovery.png)
+  ![FTP Files Download](images/ftp-files-download.png)
   ![FTP File Content](images/ftp-file-content.png)
 - Used credentials from `allowed.userlist.passwd` on the dashboard login page found via Gobuster.  
-  ![Login Page](images/login-page.png)  
+  ![Login Page](images/login-page.png)
   ![Login Success](images/login-success.png)
 
 ---
@@ -90,7 +90,7 @@
 
 ## 5. Results
 - **User Flag:** `7b4bec00d1a39e3dd4e021ec3d915da8`  
-  ![User Flag](images/user-flag.png)
+  ![Flag](images/flag.png)
 
 ---
 
@@ -115,17 +115,17 @@
 ---
 
 ## 7. Images
-- ![Nmap Scan Result](images/nmap-scan-result.png)
+- ![Nmap Scan](images/nmap.png)
 - ![WhatWeb Scan](images/whatweb-scan.png)
 - ![Gobuster Scan](images/gobuster-scan.png)
-- ![Website Homepage](images/website-homepage.png)
+- ![Website](images/website.png)
 - ![FTP Login Attempt](images/ftp-login-attempt.png)
 - ![FTP File Discovery](images/ftp-file-discovery.png)
-- ![FTP File Download](images/ftp-file-download.png)
+- ![FTP Files Download](images/ftp-files-download.png)
 - ![FTP File Content](images/ftp-file-content.png)
 - ![Login Page](images/login-page.png)
 - ![Login Success](images/login-success.png)
-- ![User Flag](images/user-flag.png)
+- ![Flag](images/flag.png)
 
 ---
 

@@ -16,7 +16,7 @@
 
 **Findings:**
 - Port 80: Apache httpd 2.4.38 (Debian)  
-  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/Nmap-scan.png)*
+  ![Nmap Scan](images/Nmap-scan.png)
 
 ---
 
@@ -33,9 +33,9 @@
 
 **Findings:**
 - HTTP title revealed a login page as shown in the scan.
-  ![Login](https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment-writeup/images/login.png) 
+  ![Login](images/login.png)
 - No significant directories found, only default ones.  
-  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/gobuster-scan.png)*
+  ![Gobuster Scan](images/gobuster-scan.png)
 
 ---
 
@@ -64,12 +64,12 @@
   admin' #
   ```
 - Result: Logged in as admin, bypassing password verification.
-  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/login.png)*
+  ![Login](images/login.png)
 ---
 
 ## 5. Results
 - **User Flag:** `e3d0796d002a446c0e622226f42e9672`  
-  *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/flag.png)*
+  ![Flag](images/flag.png)
 
 ---
 
@@ -94,10 +94,10 @@
 ---
 
 ## 7. Images
-- *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/Nmap-scan.png)*
-- *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/login.png)*
-- *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/gobuster-scan.png)*
-- *(https://github.com/Sachither/ethical-hacking-journey/blob/main/hackthebox-writeups/appointment_writeup/images/flag.png)*
+- ![Nmap Scan](images/Nmap-scan.png)
+- ![Login](images/login.png)
+- ![Gobuster Scan](images/gobuster-scan.png)
+- ![Flag](images/flag.png)
 
 ---
 

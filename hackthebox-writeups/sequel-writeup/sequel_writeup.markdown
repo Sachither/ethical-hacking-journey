@@ -20,7 +20,7 @@
 
 **Findings:**
 - Port 3306: MariaDB 10.3.27-MariaDB-0+deb10u1 (Debian 10)  
-  ![Nmap Scan Result](images/nmap-scan-result.png)
+  ![Nmap Scan](images/nmap-scan.png)
 
 ---
 
@@ -33,7 +33,7 @@
 
 **Findings:**
 - Port 3306 open, running MySQL/MariaDB.  
-  ![Nmap Second Scan](images/nmap-second-scan.png)
+  ![Nmap Second Scan](images/nmap-scan-2.png)
 
 ---
 
@@ -75,15 +75,15 @@
   SELECT * FROM <table_name>;
   ```
 - Result: Accessed database, listed tables, and retrieved data.  
-  ![Show Databases](images/show-databases.png)  
-  ![Show Tables](images/show-tables.png)  
-  ![Show All Rows](images/show-all-rows.png)
+  ![Show Databases](images/show-database.png)
+  ![Show Tables](images/show-tables.png)
+  ![Show Selected DB](images/show-selected-db.png)
 
 ---
 
 ## 5. Results
 - **User Flag:** `7b4bec00d1a39e3dd4e021ec3d915da8`  
-  ![User Flag](images/user-flag.png)
+  ![Flag](images/flag.png)
 
 ---
 
@@ -109,13 +109,13 @@
 ---
 
 ## 7. Images
-- ![Nmap Scan Result](images/nmap-scan-result.png)
-- ![Nmap Second Scan](images/nmap-second-scan.png)
+- ![Nmap Scan](images/nmap-scan.png)
+- ![Nmap Second Scan](images/nmap-scan-2.png)
 - ![MySQL Connection](images/mysql-connection.png)
-- ![Show Databases](images/show-databases.png)
+- ![Show Databases](images/show-database.png)
 - ![Show Tables](images/show-tables.png)
-- ![Show All Rows](images/show-all-rows.png)
-- ![User Flag](images/user-flag.png)
+- ![Show Selected DB](images/show-selected-db.png)
+- ![Flag](images/flag.png)
 
 ---
 
